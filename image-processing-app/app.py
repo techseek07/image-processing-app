@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 import cv2
 
-from image_processing import (
+from func import (
     apply_smoothing, apply_log_transformation,
     apply_histogram_equalization, apply_edge_detection,
     increase_contrast, remove_noise,
